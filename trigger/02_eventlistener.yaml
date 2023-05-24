@@ -70,11 +70,11 @@ spec:
       - name: git-revision
         value: $(tt.params.gitrevision)
       - name: image
-        value: image-registry.openshift-image-registry.svc:5000/caj-fare/caj-fare
+        value: image-registry.openshift-image-registry.svc:5000/user4/caj-fare
       - name: dockerfile
         value: Dockerfile-openjdk
       - name: manifest-git-url
-        value: git@github.com:CCChou/caj-fare-deploy.git
+        value: git@github.com:irislee721/caj-fare-deploy.git
       - name: manifest-git-revision
         value: main
       - name: manifest-path
